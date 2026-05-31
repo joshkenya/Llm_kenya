@@ -1,0 +1,20 @@
+# Production requirements
+-r requirements.txt
+
+# Development tools
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+pylint>=2.0.0
+ipython>=7.0.0
+jupyter>=1.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Profiling and debugging
+memory-profiler>=0.60.0
+line-profiler>=3.5.0
+ipdb>=0.13.0
